@@ -8,7 +8,7 @@
 
 # Sign up
 
-_25 group website project NR.3_
+_25 group website project NR. 3_
 
 This project was carried out together with a lecturer at the Baltic Institute of Technology 📝
 
