@@ -1,23 +1,18 @@
-main {
+.container {
     display: inline-block;
     width: 800px;
     background-color: brown;
     margin-left: calc( (100% - 800px) / 2);
 }
 
-main > div {
-    float: left;
-    width: 60%;
+.left-column {
+    width: 40%;
+    float: left ;
     background-color: blue;
 }
 
-div > div {
-    width: 40%;
-    float: left ;
-    background-color: aqua;
-}
-
-span {
-    width: 40%;
-    background-color: blueviolet;
+.right-column {
+    width: 60%;
+    height: 200px
+    background-color: yellow;
 }
