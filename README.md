@@ -14,6 +14,8 @@ This project was carried out together with a lecturer at the Baltic Institute of
 
 Site published at https://jolantakrisciukaite.github.io/5-sign-up/
 
+Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
+
 
 ## Project features
 
