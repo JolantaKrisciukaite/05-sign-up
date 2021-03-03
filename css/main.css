@@ -1,6 +1,7 @@
 .container {
     display: inline-block;
     width: 800px;
+    margin-top: 100%;
     background-color: brown;
     margin-left: calc( (100% - 800px) / 2);
 }
