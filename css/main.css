@@ -44,6 +44,12 @@ body{
     position: absolute;
     top: 0;
     right: 0;
+    color: #777;
+}
+
+.close:hover {
+    cursor: pointer;
+    color: #333;
 }
 
 form {
