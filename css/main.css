@@ -17,18 +17,47 @@ body{
     width: 800px;
     margin-top: 10%;
     margin-left: calc( (100% - 800px) / 2);
+    position: relative;
 }
 
 .left-column {
+    display: inline-block;
     width: 40%;
-    float: left ;
-    background-color: blue;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 0;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.left-column > .main-title {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+}
+
+.left-column > .links {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
+}
+
+.left-column > .links > a {
+    color: #fff;
 }
 
 .right-column {
     
     width: 60%;
-    float: left;
+    float: right;
     padding: 60px;
     background-color: #fff;
     position: relative;
