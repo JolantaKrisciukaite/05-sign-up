@@ -87,17 +87,17 @@ form > .form-row > button {
 
 form > .form-row > span {
     float: left;
-    padding: 8px;
+    padding: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
 }
 
 form > .form-row > a {
     float: left;
-    padding: 8px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 18px;
     line-height: 20px;
     color: #1B48D9;
     text-decoration: none;
