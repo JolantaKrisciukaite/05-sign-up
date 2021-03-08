@@ -5,11 +5,14 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    word-break: break-all;
 }
 
 body{
-    background-color: #9fcbe0;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 .container {
@@ -27,6 +30,7 @@ body{
     top: 30px;
     bottom: 30px;
     left: 0;
+    background-color: #0054AC;
     background-image: url(../img/hill.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +64,6 @@ body{
     float: right;
     padding: 60px;
     background-color: #fff;
-    position: relative;
 }
 
 .close {
@@ -77,8 +80,9 @@ body{
 }
 
 .close:hover {
-    cursor: pointer;
+    cursor:pointer;
     color: #333;
+    background-color: #CECECE;
 }
 
 form {
