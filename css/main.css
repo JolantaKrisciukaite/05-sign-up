@@ -8,13 +8,21 @@ body * {
 }
 
 body{
+    background-color: #6367b1;
+    position: relative;
+    height: 100vh;
+}
+
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #0054AC;
     background-image: url(../img/hill.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    backdrop-filter: blur(10px);
-    position: relative;
-    height: 100vh;
+    filter: blur(20%);
 }
 
 .container {
