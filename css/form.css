@@ -9,7 +9,7 @@ form > .form-row {
     margin-bottom: 40px;
 }
 
-form > form-row:last-of-type {
+form > .form-row:last-of-type {
     margin-bottom: 0;
 }
 
@@ -41,10 +41,9 @@ form > .form-row > button {
     line-height: 20px;
     border: none;
     border-radius: 15px;
+    cursor: pointer;
     background-color: #1B48D9;
     color: #fff;
-    text-transform: capitalize;
-    cursor: pointer;
 }
 
 form > .form-row > span {
